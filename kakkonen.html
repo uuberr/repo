@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles22.css">
+    <script src="main22.js"></script>
+</head>
+<body>
+    <div class="navi">
+        <ul id="lista">
+            <li>
+                <a href="index.html">
+                    etusivu
+                </a>
+            </li>
+            <li>
+                <a href="sivu2.html">
+                    tokasivu
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="pohja">
+        <div class="t1">
+            <h1 id="t1t">Tehtävä 1</h1>
+            <p id="p1t">
+                Tee ohjelma joka pyytää käyttäjältä kolmea numeroa ja laittaa ne järjestykseen
+            </p>
+            <form class="" action="kakkonen.html" method="post" id="from">
+                <pre>
+                    Anna 1. numero:<input type="text" id="eka" value="">
+                    Anna 2. numero:<input type="text" id="toka" value="">
+                    Anna 3. numero:<input type="text" id="kolm" value="">
+                    <button type="button" name="button" onclick="munfunktio()">Järjestä luvut</button>
+                    <p id="tes"></p>
+                </pre>
+            </form>
+        </div>
+        <div class="t2">
+            <h1 id="t2t">Tehtävä 2</h1>
+            <p id="p2t">
+                Kirjoita ohjelma, joka ottaa vastaan 5 lukua ja etsii niistä suurimman
+            </p>
+            <form class="" action="kakkonen.html" method="post" id="from2">
+                <pre>
+                    Anna 1. numero:<input type="text" id="num1">
+                    Anna 2. numero:<input type="text" id="num2">
+                    Anna 3. numero:<input type="text" id="num3">
+                    Anna 4. numero:<input type="text" id="num4">
+                    Anna 5. numero:<input type="text" id="num5">
+                    <button type="button" name="button" onclick="max()">Järjestä luvut</button>
+                    <p id="tes2"></p>
+                </pre>
+            </form>
+        </div>
+        <div class="t3">
+            <h1 id="t3t">Tehtävä 3</h1>
+            <p id="p3t">
+                Kirjoita ohjelma, joka kertoo, onko antamasi luku parillinen vai pariton
+            </p>
+            <form class="" action="kakkonen.html" method="post" id="from3">
+                <pre>
+                    Syötä numero tarkistettavaksi:<input type="text" id="par1">
+                    <button type="button" name="button" onclick="par()">Tarkista onko parillinen</button>
+                    <p id="tes3"></p>
+                </pre>
+            </form>
+        </div>
+        <div class="t4">
+            <h1 id="t4t">Tehtävä 4</h1>
+            <p id="p4t">
+                Kirjoita ohjelma, joka kysyy käyttäjän ikää ja tarkistaa, mitä ajoneuvoa saa ajaa: 16v - polkupyörää, 18v - mopoa, muutoin autoa
+            </p>
+            <form class="" action="kakkonen.html" method="post" id="from4">
+                <pre>
+                    Anna käyttäjän ikä:<input type="text" id="partti1">
+                    <button type="button" name="button" onclick="kortti()">Tarkista onko parillinen</button>
+                    <p id="tes4"></p>
+                </pre>
+            </form>
+        </div>
+        <div class="t5">
+            <h1 id="t5t">Tehtävä 5</h1>
+            <p id="p5t">
+                Kirjoita ohjelma, joka kysyy käyttäjän ikää ja tarkistaa, mitä ajoneuvoa saa ajaa: <16v - polkupyörää, <18v - mopoa, muutoin autoa
+            </p >
+            <form class="" action="kakkonen.html" method="post" id="from5">
+                <pre>
+                    <select class="" id="partti2">
+                        <option value="eng">Englanti</option>
+                        <option value="swe">Ruotsi</option>
+                        <option value="esp">Espanja</option>
+                      </select>
+                    <button type="button" name="button" onclick="kieli()">Tarkista onko parillinen</button>
+                    <p id="tes5"></p>
+                </pre>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

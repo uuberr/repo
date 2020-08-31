@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navi">
+        <ul id="lista">
+            <li>
+                <a href="index.html" id="pv1">
+                    Eka päivä
+                </a>
+            </li>
+            <li>
+                <a href="sivu2.html" id ="pv2">
+                    Toka päivä
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="konaa">
+        <div class="lapsi">
+            <p id="nappula" onclick="funktio()">Paina mua saadaksesi tietoa.</p>
+            <div class="kysely">
+                <h1 id="Kysy">Paljonko on 12+13?</h1>
+                <div class="kysely2">
+                    <div class="nappi1">
+                        <p id="vast1" onclick="funktio2()">24 </p>
+                    </div>
+                    <div class="nappi2">
+                        <p id="vast2" onclick="funktio3()">26 </p>
+                    </div>
+                    <div class="nappi3">
+                        <p id="vast3" onclick="funktio4()">25 </p>
+                    </div>
+                </div>
+                <h1 id="gz"></h1>
+            </div>
+        </div>
+        <div class="formi">
+            <form class="">
+                <p id="min">
+                    Anna tunnit:
+                </p>
+                <input type="text" id="tunnit" value="" placeholder="Syötä tunnit">
+                <p id="tun">
+                    Anna minuutit:
+                </p>
+                <input type="text" id="minuutit" value="" placeholder="Syötä minuutit"><br><br>
+                <button id="nappi" type="button" name="button" onclick="laskeMin()">Laske minuutit</button>
+                <p id="nappitulo"></p>
+                <button id="aikanappi" type="button" name="button" onclick="aikaT()">Näytä kello</button>
+                <p id="aika"></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

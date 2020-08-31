@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+
+body {
+    background-color: white;
+}
+p  {
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 15px;
+}
+h1 { 
+    color : black;
+    font-family: 'Rowdies', cursive;
+}
+#inf {
+    color: black;
+    position: relative;
+    margin-left: 330px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.infte {
+    height: 10px;
+    position: absolute;
+}
+.navi {
+    background: linear-gradient(to right,   #0378ae 20%, #053f91 100%);
+    height: 70px;
+    width: 100%;
+    margin-left: -8px;
+    position: fixed;
+    padding: 0px;
+    top: 0px;
+}
+li {
+    color: white;
+    display: inline;
+    font-size:  20px;
+    font-family: 'Rowdies', cursive;
+}
+.konaa {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+.lapsi {
+    margin: 0 auto;
+}
+.kysely2 { 
+    justify-content: center;
+    margin-left: 70px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.kysely{
+    width: 500px;
+    height: 300px;
+    background: rgb(95,147,249);
+    background: linear-gradient(90deg, rgba(95,147,249,1) 0%, rgba(160,197,254,1) 100%);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 400px;
+}
+#Kysy {
+    padding-top: 15px;
+    margin-left: 65px;
+}
+#gz {
+    margin-left: 60px;
+}
+#min {
+    color: black;
+}
+#tun {
+    color: black;
+}
+#nappitulo {
+    color: black;
+}
+.formi {
+    margin-right: 400px;
+    margin-top: 30px;
+}
+li {
+    top: 10%;
+    position: relative;
+}
+#aika {
+    position: absolute;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    padding-left: 0%;
+    margin-left: 0px;
+    margin-top: 185px;
+}
+#aikanappi {
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(115, 208, 245);
+    border-style: solid;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+.kk h1 {
+    position: absolute;
+    margin-right: 600px;
+    margin-top: 100px;
+    color: black;
+}
+#kk2 {
+    margin-left: 40px;
+    margin-top: 155px;
+}
+#kale {
+    position: relative;
+    margin-top: 25px;
+    margin-right: 200px;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: linear-gradient(90deg, rgb(210, 231, 233) 0%, rgb(206, 252, 255) 100%);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#jj {
+    color: black;
+    position: absolute;
+    margin-top: 350px;
+    margin-right: 500px;
+}
+#nappula {
+    border: 3px solid black;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 7px;
+    height: 45px;
+    width: 65px;
+}
+
+#inputti { 
+    margin-top: 20px;
+    padding-left: 7px;
+    border: 3px solid black;
+    border-radius: 7px;
+    height: 43.5px;
+    width: 440px;
+}
+.toggled {
+    transition: 0.5s ease-in-out;
+    background-color: rgb(69, 255, 62);
+}
+.kal {
+    margin-right: 250px;
+    margin-top: 70px;
+}
+.kal h1 {
+    margin-left: 277px;
+}
+li {
+    padding-left: 15px;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: justify;
+    margin-top: 5px;
+    list-style: none;
+    height: 50px;
+    width: 500px;
+    border: 2px solid black;
+    background-color:#ea03ff;
+    border-radius: 3px;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    transition: 0.5s ease-in-out;
+}
+#otsik li {
+    color: red;
+}
+.popup, .popup2 {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: rgb(32, 253, 106);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+  
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+#nappula1 {
+    cursor: pointer;
+    margin-left: 200px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(115, 208, 245);
+    border-style: solid;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+#nappula2 {
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(115, 208, 245);
+    border-style: solid;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+  
+  .popup .show{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }

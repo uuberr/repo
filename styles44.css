@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap');
+
+body {
+    background-color: #3e82ff;
+}
+#pkirj2, #pkirj {
+    color : black;
+    font-size: 18px;
+}
+p {
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+#logi {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -333px;
+    background-color: #3e82ff;
+    border-style: none;
+    border-radius: 5px;
+    width: 331px;
+    height: 40px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 23px;
+}
+#slas, #spost {
+    font-size: 20px;
+}
+#spost, #slas {
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 4px;
+    height: 30px;
+    margin-left: 70px;
+    width: 330px;
+}
+#kirjsis {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color : black;
+    font-family: 'Raleway', sans-serif;
+}
+.navi {
+    background: linear-gradient(to right,   #2165e2 0%, #3e82ff 100%);
+    height: 70px;
+    width: 100%;
+    margin-left: -8px;
+    position: fixed;
+    padding: 0px;
+    top: 0px;
+}
+#forgot {
+    margin-left: 270px;
+    margin-top: 80px;
+    font-family: 'Barlow', sans-serif;
+}
+#unothu {
+    font-family: 'Barlow', sans-serif;
+    color: red;
+}
+li {
+    color: white;
+    display: inline;
+    font-size:  20px;
+    font-family: 'Rowdies', cursive;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.isi {
+    border-radius: 20px;
+    width: 480px;
+    height: 380px;
+    background-color: white;
+    margin-top: 100px;
+}
